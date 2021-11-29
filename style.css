@@ -1,0 +1,86 @@
+:root{
+    --primary:#065F46
+  }
+  body{
+    margin:0;
+    color: rgb(10, 10, 10);
+    background-color: #576da1;
+  }
+  
+  .section{
+  margin: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    min-height:200px;
+    
+  
+  }
+  
+  
+  .heading{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(241, 200, 18);
+  }
+  .heading p{
+    font-size:1.5rem;
+    font-weight: 100;
+  }
+  input{
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  label{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  button{
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: none;
+    width:80px;
+    height: 30px;
+    border-radius: 20px;
+  }
+  
+  .errorMsg{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: none;
+    padding: 0.5rem;
+    margin: 1rem;
+  }
+  
+  .bill-amount-div{
+    display: block;
+  }
+  
+  .cash-amount-div{
+    display: none;
+  }
+  
+  .notesTable{
+    display: none;
+  }
+  table{
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  .type-of-notes{
+    background-color: rgb(175, 211, 17);
+    font-weight: bold;
+    color: black;
+  }
+  
+  th,td{
+    background-color: rgb(175, 211, 17);
+    font-size: 1.5rem;
+    color: black;
+  }
